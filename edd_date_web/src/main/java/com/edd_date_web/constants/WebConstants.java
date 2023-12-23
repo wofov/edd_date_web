@@ -4,6 +4,10 @@ import java.util.Map;
 
 public class WebConstants {
 
+    //
+    public static final int MAX_REQUESTS = 4;
+    public static final long TIME_WINDOW_MILLISECONDS = 2000;
+    public static final long BLOCKING_TIME_MILLISECONDS = 5000;
 
     public static final String API_NAME = "EDD API";
     public static final String API_DESCRIPTION = "EDD API 명세서";
