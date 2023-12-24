@@ -15,7 +15,6 @@ public class WebMvcConfig implements WebMvcConfigurer {
 
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
-        // Add the RequestLimitInterceptor to the registry
         registry.addInterceptor(requestLimitInterceptor);
     }
 }
